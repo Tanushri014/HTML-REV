@@ -323,8 +323,238 @@ Line 3 </pre>
 
 
 </section>
+<hr>
+
+<section>
+
+    <h2>Level 4 - Tables</h2>
 
 
+<ol>
+
+    <li>What is a Table?</li>
+    <ul>
+        <li>Tables are used to display data in rows and columns.</li>
+        <li>The &lt;table&gt; tag is the container for a table.</li>
+    </ul>
+
+    <li>Table Tag</li>
+    <ul>
+        <li>Creates a table.</li>
+        <li>Syntax: &lt;table&gt;&lt;/table&gt;</li>
+    </ul>
+
+    <li>Table Row - tr</li>
+    <ul>
+        <li>Defines a row inside a table.</li>
+    </ul>
+
+    <li>Table Heading - th</li>
+    <ul>
+        <li>Defines a header cell.</li>
+        <li>Text appears bold and centered by default.</li>
+    </ul>
+
+    <li>Table Data - td</li>
+    <ul>
+        <li>Defines a normal data cell.</li>
+    </ul>
+
+    <li>Simple Table Example</li>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Tanushri</td>
+            <td>20</td>
+            <td>Pandharpur</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>22</td>
+            <td>Pune</td>
+        </tr>
+    </table>
+
+    <li>Rowspan Attribute</li>
+    <ul>
+        <li>Merges multiple rows into a single cell.</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Tanushri</td>
+            <td>HTML</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+        </tr>
+    </table>
+
+    <li>Colspan Attribute</li>
+    <ul>
+        <li>Merges multiple columns into a single cell.</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Student Details</th>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td>Tanushri</td>
+            <td>20</td>
+            <td>Pandharpur</td>
+        </tr>
+    </table>
+
+    <li>Table Sections</li>
+    <ul>
+        <li>&lt;thead&gt; - Groups header content.</li>
+        <li>&lt;tbody&gt; - Groups main table data.</li>
+        <li>&lt;tfoot&gt; - Groups footer content.</li>
+    </ul>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Duration</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>HTML</td>
+                <td>1 Week</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>2 Weeks</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    End of Table
+                </td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</ol>
+
+
+</section>
+
+<hr>
+
+<section>
+   
+<h2>Level 5 - Semantic HTML Tags</h2>
+
+<ol>
+
+    <li>What are Semantic Tags?</li>
+    <ul>
+        <li>Semantic tags clearly describe the purpose of the content they contain.</li>
+        <li>They make code easier to read and maintain.</li>
+        <li>They improve SEO and accessibility.</li>
+    </ul>
+
+    <li>Header Tag</li>
+    <ul>
+        <li>Represents introductory content.</li>
+    </ul>
+
+    <header>
+        <h3>My Website</h3>
+        <p>Welcome to my website</p>
+    </header>
+
+    <li>Navigation Tag</li>
+    <ul>
+        <li>Contains navigation links.</li>
+    </ul>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <li>Main Tag</li>
+    <ul>
+        <li>Represents the primary content of the webpage.</li>
+    </ul>
+
+    <main>
+        Main content goes here.
+    </main>
+
+    <li>Section Tag</li>
+    <ul>
+        <li>Groups related content together.</li>
+    </ul>
+
+    <section>
+        <h4>HTML Notes</h4>
+        <p>Learning HTML basics.</p>
+    </section>
+
+    <li>Article Tag</li>
+    <ul>
+        <li>Represents self-contained content.</li>
+    </ul>
+
+    <article>
+        <h4>HTML Tutorial</h4>
+        <p>This article explains semantic tags.</p>
+    </article>
+
+    <li>Aside Tag</li>
+    <ul>
+        <li>Contains content indirectly related to the main content.</li>
+    </ul>
+
+    <aside>
+        <p>Tip: Practice HTML daily.</p>
+    </aside>
+
+    <li>Footer Tag</li>
+    <ul>
+        <li>Represents footer information.</li>
+    </ul>
+
+    <footer>
+        <p>&copy; 2026 My Notes</p>
+    </footer>
+
+</ol>
+
+</section>
 
 
 
